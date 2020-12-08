@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <title>Weather Dashboard</title>
+  </head>
+
+  <body>
+    <nav
+      class="navbar navbar-dark bg-dark justify-content-center align-items-center"
+    >
+      <span class="navbar-brand mb-0 h1"><h1>Weather Dashboard</h1></span>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-3">
+          <h4>City Search:</h4>
+
+          <div class="row mb-5">
+            <div class="input-group input-group-sm">
+              <input
+                id="input"
+                type="text"
+                class="form-control"
+                aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-sm"
+              />
+              <div class="input-group-prepend">
+                <button
+                  id="button"
+                  type="button"
+                  class="btn btn-primary btn-sm mr-5 mb-1"
+                >
+                  Search
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="row height">
+            <div class="col-8">
+              <div class="card">
+                <div id="button-card-body" class="card-body"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-8">
+          <div class="card">
+            <div class="card-body">
+              <div id="city">
+                <img src="" />
+              </div>
+              <div id="wind"></div>
+              <div id="humidity"></div>
+              <div id="temp"></div>
+              <div id="uv"></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-8">
+              <h3>5-Day Forecast</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-1">
+              <div class="card bg-primary" style="width: 8rem">
+                <div class="card-body">
+                  <div id="date1">
+                    <img src="" />
+                  </div>
+                  <div id="temp1"></div>
+                  <div id="humidity1"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-1"></div>
+            <div class="col-1">
+              <div class="card bg-primary" style="width: 8rem">
+                <div class="card-body">
+                  <div id="date2">
+                    <img src="" />
+                  </div>
+                  <div id="temp2"></div>
+                  <div id="humidity2"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-1"></div>
+            <div class="col-1">
+              <div class="card bg-primary" style="width: 8rem">
+                <div class="card-body">
+                  <div id="date3">
+                    <img src="" />
+                  </div>
+                  <div id="temp3"></div>
+                  <div id="humidity3"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-1"></div>
+            <div class="col-1">
+              <div class="card bg-primary" style="width: 8rem">
+                <div class="card-body">
+                  <div id="date4">
+                    <img src="" />
+                  </div>
+                  <div id="temp4"></div>
+                  <div id="humidity4"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-1"></div>
+            <div class="col-1">
+              <div class="card bg-primary" style="width: 8rem">
+                <div class="card-body">
+                  <div id="date5">
+                    <img src="" />
+                  </div>
+                  <div id="temp5"></div>
+                  <div id="humidity5"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </body>
+</html>
